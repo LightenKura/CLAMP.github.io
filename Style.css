@@ -1,4 +1,6 @@
-.mySlides {display:none;}
+.mySlides {
+  display:none;
+}
 .Begin{
   background-image: url("AllChar.jpg");
   background-size: cover;
