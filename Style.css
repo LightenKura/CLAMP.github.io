@@ -1,0 +1,72 @@
+.Begin{
+  background-image: url("AllChar.jpg");
+  background-size: cover;
+}
+.N1{
+  background-image: url("BG1.jpg");
+  background-size: cover;
+}
+
+.N2{
+  background-image: url("BG1.jpg");
+  background-size: cover;
+}
+.Title{
+  text-align: right;
+  margin-right: 60px;
+  color:red;
+  font-size: 65px;
+}
+.Bio {
+  text-align: center;
+  font-size: 19px;
+  color: white;
+  text-indent: 50px;
+  width: 300px;
+  padding: 25px;
+  margin-left: 990px;
+}
+
+.Past_p {
+  font-size: 30px;
+  font-weight: bold;
+    color: white;
+    margin-left: 1090px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+.Past_n {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.Present {
+  font-size: 30px;
+  font-weight: bold;
+    color: white;
+    padding: 20px ;
+    margin-left: 1060px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.Present_n {
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1;
+}
+
+.RG{
+  margin-left: 600px;
+}
+
+.MOMF{
+  margin-left: 50px;
+}
