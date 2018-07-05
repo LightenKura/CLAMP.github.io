@@ -4,6 +4,18 @@
   margin: auto;
 }
 
+.mySlides {
+    display: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
 .N1{
   background-image: url("BG1.jpg");
   background-size: cover;
