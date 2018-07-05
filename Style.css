@@ -1,7 +1,9 @@
-.Begin{
-  background-image: url("AllChar.jpg");
-  background-size: cover;
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
 }
+
 .N1{
   background-image: url("BG1.jpg");
   background-size: cover;
