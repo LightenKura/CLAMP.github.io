@@ -1,7 +1,11 @@
-<img class="mySlides" src="CLAMP_Fes_2011.jpg">
-<img class="mySlides" src="AllChar2.jpg">
-<img class="mySlides" src="AllChar3.jpg">
-<img class="mySlides" src="AllChar4.jpg">
+var image1=new Image()
+image1.src="CLAMP_Fes_2011.jpg"
+var image2=new Image()
+image2.src="AllChar2.jpg"
+var image3=new Image()
+image3.src="AllChar3.jpg"
+var image4=new Image()
+image4.src="AllChar4.jpg"
 
 var slideIndex = 0;
 showSlides();
