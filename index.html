@@ -2,7 +2,6 @@
 <html>
   <head>
     <link rel="stylesheet" href="Style.css"/>
-    <script src="Interactive.js"> </script>
     <title>CLAMP</title>
   </head>
 
@@ -10,6 +9,28 @@
   <body class="Begin">
     <center class="Title">CLAMP</center>
     <br></br>
+    <div class="w3-content w3-section" style="max-width:500px">
+      <img class="mySlides" src="CLAMP_Fes_2011.jpg" style="width:100%">
+      <img class="mySlides" src="AllChar2.jpg" style="width:100%">
+      <img class="mySlides" src="AllChar3.jpg" style="width:100%">
+      <img class="mySlides" src="AllChar4.jpg" style="width:100%">
+    </div>
+   <script>
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+   </script>
     <p class="Bio"> <em>Originally began as a doujinshi circle called Clamp Cluster,
       they are now an all-female Japanese manga artist group that formed in the mid-1980s.
       It consists of leader Nanase Ohkawa, and three artists whose roles shift
