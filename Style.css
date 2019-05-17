@@ -27,11 +27,12 @@
   background-image: url("BG1.jpg");
   background-size: cover;
 }
-.Title{
-  text-align: right;
+header{
   margin-right: 60px;
   color:red;
   font-size: 65px;
+  float: right;
+  
 }
 .Bio {
   text-align: center;
