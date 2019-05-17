@@ -2,7 +2,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-  
+  max-postition: 2000px;
   position: fixed;
 }
 
@@ -18,11 +18,6 @@
   animation-duration: 1.5s;
 }
 
-
-.Begin{
-  background-image: url("AllChar.jpg");
-  background-size: cover;
-}
 .N1{
   background-image: url("BG1.jpg");
   background-size: cover;
